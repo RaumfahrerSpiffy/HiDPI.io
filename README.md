@@ -21,7 +21,7 @@ System Preferences
 Run this script in Terminal
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/hidpi/master/hidpi.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/master/hidpi.sh)"
 ```
 
 ![RUN](./img/run.jpg)
