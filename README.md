@@ -15,6 +15,7 @@ NOTE: Some devices have wake-up issues, the script's second option may help in t
 ## Usage
 
 Run this script in Terminal (copy and paste the entire line, NOTE: Internet access is required)
+Select desired options when prompted, reboot upon completion.
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/master/hidpi.sh)"
@@ -22,11 +23,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/
 
 ![RUN](./img/run.jpg)
 
-## Recovery
+## Recovery (in case of problems)
 
 ### Normal
 
-Still running the script in the terminal, but choose option 3
+Run the script again in the terminal, but choose option 3 (to disable HiDPI)
 
 ### Recovery mode
 
