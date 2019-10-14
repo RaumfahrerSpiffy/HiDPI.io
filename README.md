@@ -31,8 +31,7 @@ Run the script again in the terminal, but choose option 3 (to disable HiDPI syst
 
 ### Recovery mode (if the above method does not work)
 
-If you cannot boot into system, you can boot into macOS Recovery mode, and use the Terminal.app
-(To boot into the recovery partition press and hold Command+R upon reboot until the Apple logo appears)
+If you cannot boot into system, you can boot into macOS Recovery mode by pressing and holding ⌘+R untill the Apple logo appears and use the Terminal.app
 
 There are two ways to close it. It is recommended to choose the first one
 
