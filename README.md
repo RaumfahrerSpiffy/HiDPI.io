@@ -18,7 +18,7 @@ Run this script in Terminal (copy and paste the entire line, NOTE: Internet acce
 Select desired options when prompted, reboot upon completion.
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/master/hidpi.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/hidpi.io/master/hidpi.sh)"
 ```
 
 ![RUN](./img/run.jpg)
