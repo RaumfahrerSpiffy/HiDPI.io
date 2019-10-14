@@ -6,8 +6,7 @@ This script can simulate native macOS HiDPI on a non-Apple (or-non-Retina) displ
 
 NOTE: Some devices have wake-up issues, the script's second option may help in these cases by injecting a patched EDID, but may cause problems depending on your OS version. Logo up-scaling may not be resolved, because the higher resolution is faked.
 
-##
-As seen in System Preferences:
+## As seen in System Preferences:
 
 ![Preferences](./img/preferences.jpg)
 
