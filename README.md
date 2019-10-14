@@ -2,9 +2,9 @@
 
 ## Explanation
 
-This script can simulate macOS HiDPI on a non-Apple display, and create "Native" Scaled options in System Preferences.
+This script can simulate native macOS HiDPI on a non-Apple (or-non-Retina) display, and create scaled options in System Preferences.
 
-Some devices have wake-up issues, the script's second option may help, it injects a patched EDID, but may cause problems depending on screen properties.
+Some devices have wake-up issues, the script's second option may help in these cases by injecting a patched EDID, but may cause problems depending on your OS version.
 
 Logo up-scaling may not be resolved, because the higher resolution is faked.
 
@@ -36,7 +36,7 @@ If you cant boot into system, or get any another issues, you can boot into macOS
 
 There are two ways to close it. It is recommended to choose the first one
 
-1. 
+Option 1. 
 
 ```bash
 ls /Volumes/
@@ -45,11 +45,11 @@ cd /Volumes/"Your System Disk Part"/System/Library/Displays/Contents/Resources/O
 ./disable
 ```
 
-2. 
+Option 2. 
 
 Remove your display's DisplayVendorID folder under `/System/Library/Displays/Contents/Resources/Overrides` , and move backup files
 
-Please use the single display to execute the following commands. If it is a laptop, turn off the internal monitor when turning off the HIDPI of the external monitor.
+Please use a single display to execute the following commands. If it is a laptop, turn off the internal monitor when turning off the HIDPI of the external monitor.
 
 In Terminal: 
 
