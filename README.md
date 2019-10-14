@@ -23,7 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/
 
 ![RUN](./img/run.jpg)
 
-## Recovery (in case of problems)
+## Recovery
 
 ### Normal (preferred)
 
