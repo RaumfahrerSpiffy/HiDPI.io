@@ -1,4 +1,4 @@
-#  Enable macOS HiDPI
+# Enable macOS HiDPI 
 
 ## Explanation
 
