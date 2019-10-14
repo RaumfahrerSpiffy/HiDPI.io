@@ -27,7 +27,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/
 
 ### Normal
 
-Run the script again in the terminal, but choose option 3 (to disable HiDPI)
+Run the script again in the terminal, but choose option 3 (to disable HiDPI system wide)
 
 ### Recovery mode
 
