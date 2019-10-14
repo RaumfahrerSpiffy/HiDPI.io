@@ -14,7 +14,7 @@ NOTE: Some devices have wake-up issues, the script's second option may help in t
 
 ## Usage
 
-Run this script in Terminal (INTERNET ACCESS REQUIRED)
+Run this script in Terminal (copy and paste the entire line, NOTE: Internet access is required)
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/master/hidpi.sh)"
