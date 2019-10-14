@@ -1,10 +1,10 @@
-# Enable macOS HiDPI
+#  Enable macOS HiDPI 
 
 ## Explanation
 
- This script can simulate macOS HiDPI on a non-retina display, and have a "Native" Scaled in System Preferences.
+This script can simulate macOS HiDPI on a non-Apple display, and create "Native" Scaled options in System Preferences.
 
-Some devices have wake-up issues, the script's second option may help, it injects a patched EDID, but another problem may exist here.
+Some devices have wake-up issues, the script's second option may help, it injects a patched EDID, but may cause problems depending on screen properties.
 
 Logo up-scaling may not be resolved, because the higher resolution is faked.
 
