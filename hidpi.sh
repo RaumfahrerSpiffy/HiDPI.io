@@ -33,37 +33,6 @@ langChooseResOp2="(2) 1080P Display (use 1424x802, fix underscaled after sleep)"
 langChooseResOp3="(3) 2K Display"
 langChooseResOp4="(4) Manual input resolution"
 
-if [[ "${systemLanguage}" == "zh_CN" ]]; then 
-    disableSIP="需要关闭 SIP"
-    langDisplay="显示器"
-    langMonitors="显示器"
-    langIndex="序号"
-    langVendorID="供应商ID"
-    langProductID="产品ID"
-    langMonitorName="显示器名称"
-    langChooseDis="选择显示器"
-    langInputChoice="输入你的选择"
-    langEnterError="输入错误，再见了您嘞！"
-    langBackingUp="正在备份(怎么还原请看说明)..."
-    langEnabled="开启成功，重启生效"
-    langDisabled="关闭成功，重启生效"
-    langEnabledLog="首次重启开机logo会变得巨大，之后就不会了"
-    langCustomRes="输入想要开启的 HIDPI 分辨率，用空格隔开，就像这样：1680x945 1600x900 1440x810"
-
-    langChooseIcon="选择显示器ICON"
-    langNotChange="保持原样"
-
-    langEnableOp1="(1) 开启HIDPI"
-    langEnableOp2="(2) 开启HIDPI(同时注入EDID)"
-    langEnableOp3="(3) 关闭HIDPI"
-
-    langChooseRes="选择分辨率配置"
-    langChooseResOp1="(1) 1080P 显示屏"
-    langChooseResOp2="(2) 1080P 显示屏 (使用 1424x802 分辨率，修复睡眠唤醒后的屏幕缩小问题)"
-    langChooseResOp3="(3) 2K 显示屏"
-    langChooseResOp4="(4) 手动输入分辨率"
-fi
-
 downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/master"
 # downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev"
 # downloadHost="http://127.0.0.1:8080"
