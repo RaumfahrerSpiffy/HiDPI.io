@@ -29,9 +29,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/turbo.io/
 
 Run the script again in the terminal, but choose option 3 (to disable HiDPI system wide)
 
-### Recovery mode
+### Recovery mode (if the above method does not work)
 
-If you cant boot into system, or get any another issues, you can boot into macOS Recovery mode, and use the Terminal.app
+If you cannot boot into system, you can boot into macOS Recovery mode, and use the Terminal.app
+(To boot into the recovery partition press and hold Command+R upon reboot until the Apple logo appears)
 
 There are two ways to close it. It is recommended to choose the first one
 
