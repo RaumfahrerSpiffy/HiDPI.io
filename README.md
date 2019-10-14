@@ -25,7 +25,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/raumfahrerspiffy/hidpi.io/
 
 ### Normal (preferred)
 
-Run the script again in the terminal, but choose option 3 (to disable HiDPI system wide)
+Run the script again in Terminal, but choose option 3 at the prompt (to disable HiDPI system wide)
 
 ### Recovery mode (if the above method does not work)
 
