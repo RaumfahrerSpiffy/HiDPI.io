@@ -8,7 +8,7 @@ Some devices have wake-up issues, the script's second option may help in these c
 
 Logo up-scaling may not be resolved, because the higher resolution is faked.
 
-System Preferences
+As seen in System Preferences:
 
 ![Preferences](./img/preferences.jpg)
 
