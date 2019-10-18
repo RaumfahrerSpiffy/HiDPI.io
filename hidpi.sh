@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sipChecker=($(csrutil status | awk '{ print $5 }'))
 systemVersion=($(sw_vers -productVersion | cut -d "." -f 2))
