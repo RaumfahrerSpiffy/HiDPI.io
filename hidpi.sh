@@ -33,8 +33,7 @@ langChooseResOp2="(2) 1080P Display (use 1424x802, fix underscaled after sleep)"
 langChooseResOp3="(3) 2K Display"
 langChooseResOp4="(4) Manual input resolution"
 
-downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/master"
- # downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev"
+downloadHost="https://raw.githubusercontent.com/raumfahrerspiffy/hidpi.io/master/"
  # downloadHost="http://127.0.0.1:8080"
 
 if [ "${sipChecker}" != "disabled." ]; then
