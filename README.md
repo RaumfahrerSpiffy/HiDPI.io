@@ -1,6 +1,6 @@
-#  Enable macOS HiDPI
+#  Enable macOS HiDPI 
 
-## Explanation
+## Introduction
 
 This script can simulate native macOS HiDPI on a non-Apple (or non-Retina) display, and create scaled options in System Preferences as seen below:
 
