@@ -4,7 +4,7 @@ sipChecker=($(csrutil status | awk '{ print $5 }'))
 systemVersion=($(sw_vers -productVersion | cut -d "." -f 2))
 systemLanguage=($(locale | grep LANG | sed s/'LANG='// | tr -d '"' | cut -d "." -f 1))
 
-disableSIP="Need to disable SIP"
+disableSIP="Please disable System Integrity Protection"
 langDisplay="Display"
 langMonitors="Monitors"
 langIndex="Index"
@@ -32,10 +32,6 @@ langChooseResOp1="(1) 1080P Display"
 langChooseResOp2="(2) 1080P Display (use 1424x802, fix underscaled after sleep)"
 langChooseResOp3="(3) 2K Display"
 langChooseResOp4="(4) Manual input resolution"
-
-#downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/master"
-# downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/dev"
-# downloadHost="http://127.0.0.1:8080"
 
 if [ "${sipChecker}" != "disabled." ]; then
     echo "${disableSIP}";
@@ -148,14 +144,10 @@ function init()
 {
 #
 cat << EEF
-  _    _   _____   _____    _____    _____ 
- | |  | | |_   _| |  __ \  |  __ \  |_   _|
- | |__| |   | |   | |  | | | |__) |   | |  
- |  __  |   | |   | |  | | |  ___/    | |  
- | |  | |  _| |_  | |__| | | |       _| |_ 
- |_|  |_| |_____| |_____/  |_|      |_____|
-                                           
-============================================
+ _     _ _____ ______   _____  _____
+ |_____|   |   |     \ |_____]   |  
+ |     | __|__ |_____/ |       __|__                                    
+=====================================
 EEF
     #
     get_edid
